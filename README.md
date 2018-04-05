@@ -10,8 +10,14 @@ Main issues that this elemene is able to solve is:
 [Demo](//ryoyakawai.github.io/youtube-play/)
 
 # Usage
+To use this element: 
+- 2 lines for preparing
+- write `<youtube-play></youtube-play>` tag where you want to put YouTube video.
 
 ````html
+<script src="https://polygit.org/components/webcomponentsjs/webcomponents-loader.js"></script>
+<link rel="import" href="youtube-play.html">
+
 <youtube-play contentid="WsptdUFthWI" imgsrc="./images/youtube-play-sample-02.png" start="1:48" autoplay="1" size="75%" rel="0" controls="1" showinfo="0"></youtube-play>
 
 ````
