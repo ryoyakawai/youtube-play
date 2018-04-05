@@ -7,6 +7,7 @@ Main issues that this elemene is able to solve is:
 - To prevent slow page loading by avoid filled with 'X-XSS-Protection' error in each YouTube iframe on the page.
 
 # Live Demo
+[Demo](//ryoyakawai.github.io/youtube-play/)
 
 # Usage
 
@@ -15,8 +16,16 @@ Main issues that this elemene is able to solve is:
 
 ````
 
-- **contentid** : Content ID of YouTube video you want to embed
+Attributes:
 
+- **contentid** : Content ID of YouTube video you want to embed
+- **imgsrc** : path for your image that you want to display over YouTube embed iframe
+- **start** : starting time where YouTube video to be started (Both 'hh:mm:ss' and only sec format is supported by auto detect)
+- **autoplay** : set '1' for starting playing automatically after the image is clicked otherwise set '0' or remove this attribute.
+- **size** : set size of width from window. This attribute is required.
+- **rel** :  set '1' for providing to display related link after the video reached to the end.
+- **controls** : set '1' for providing to video control buttons, remove control button set '0'
+-**showinfo** : set '1' for providing information, such as video title etc, during playing, set '0' for removing all of those.
 
 # License
 
