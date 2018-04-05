@@ -1,4 +1,4 @@
-# youtube-play
+# youtube-play (Polymer Element)
 This is the Polymer element which allow you to display thumbnail image over YouTube embed iframe on your web page.
 Main issues that this elemene is able to solve is:
 
