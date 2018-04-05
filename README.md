@@ -12,7 +12,8 @@ Main issues that this elemene is able to solve is:
 # Usage
 To use this element: 
 - 2 lines for preparing
-- write `<youtube-play></youtube-play>` tag where you want to put YouTube video.
+- write `<youtube-play></youtube-play>` tag and adding attributes, that is explained in below, in it.
+
 
 ````html
 <script src="https://polygit.org/components/webcomponentsjs/webcomponents-loader.js"></script>
@@ -22,7 +23,7 @@ To use this element:
 
 ````
 
-Attributes:
+**Attributes:**
 
 - **contentid** : Content ID of YouTube video you want to embed
 - **imgsrc** : path for your image that you want to display over YouTube embed iframe
