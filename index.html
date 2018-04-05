@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://polygit.org/components/webcomponentsjs/webcomponents-loader.js"></script>
+    <link rel="import" href="youtube-play.html">
+    <style>
+     body {
+       font-family: arial;
+       width: 90%;
+       margin-left:20px;
+     }
+     li {
+       margin-bottom: 5px;
+     }
+    </style>
+  </head>
+  <body>
+    <h1>Live demo for youtube-play Polymer element.</h1>
+    <p>
+      This is the Polymer element which allow you to display thumbnail image over YouTube embed iframe on your web page.<br>
+      Main issues that this elemene is able to solve is:
+      <ul>
+        <li>To reduce time to implement embed YouTube video onto the page.</li>
+        <li>To display image of the point where you want to start from. (Need to prepare image, though.)</li>
+        <li>To prevent slow page loading by avoid filled with 'X-XSS-Protection' error in each YouTube iframe on the page.</li>
+      </ul>
+    </p>
+
+    <p>If you have interested in usign this element, please visit the <a href="https://github.com/ryoyakawai/youtube-play" target="_blank">GitHub repository</a> and see README.md for more detail.<br>
+    Thank you!!</p>
+    
+    <h2>Live demos</h2>
+    <p>To play from 1:38 by auto play.</p>
+    <div>
+      <youtube-play contentid="WsptdUFthWI" imgsrc="./images/youtube-play-sample-02.png" start="1:48" autoplay="1" size="75%" rel="0" controls="1" showinfo="0"></youtube-play>
+    </div>
+    <br>
+
+
+    <p>To play from its begining without auto play and controller displays.</p>
+    <div>
+      <youtube-play contentid="WsptdUFthWI" imgsrc="./images/youtube-play-sample-01.png" start="0" autoplay="0" size="90%" rel="0" controls="0" showinfo="0"></youtube-play>
+    </div>
+    <br>
+
+
+    <p>To play from 10 with AutoPlay and displaying info without controller.</p>
+    <div>
+      <youtube-play contentid="_DqlM9kWNMQ" imgsrc="./images/youtube-play-sample-03.png" start= "10" autoplay="1" size="80%" rel="0" controls="0" showinfo="1" allowfullscreen="1"></youtube-play>
+    </div>
+  </body>
+</html>
