@@ -322,8 +322,8 @@
            super.detached();
        }
 
-       attributeChangedCallback () {
-           super.attributeChangedCallback();
+       attributeChangedCallback (name, old, value) {
+           super.attributeChangedCallback(name, old, value);
        }
 
        attributeChanged () {
