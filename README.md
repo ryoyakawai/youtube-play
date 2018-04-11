@@ -32,7 +32,7 @@ To use this element:
 - **size** : set size of width from window. This attribute is required.
 - **rel** :  set '1' for providing to display related link after the video reached to the end.
 - **controls** : set '1' for providing to video control buttons, remove control button set '0'
--**showinfo** : set '1' for providing information, such as video title etc, during playing, set '0' for removing all of those.
+- **showinfo** : set '1' for providing information, such as video title etc, during playing, set '0' for removing all of those.
 
 # License
 
